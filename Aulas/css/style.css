@@ -1,0 +1,41 @@
+/* Com o sinal ">" apenas se estiver diretamente na
+   div1 como filha irá funcionar # id */
+/*#div1  > h1{
+	color: red;
+}*/
+
+/* Com o sinal ">" apenas se estiver diretamente na
+   div1 como filha irá funcionar . class */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.div1  > h1{
+	color: red;
+}
+
+.div2 h1{
+	color: orange;
+}
+
+/* ID somente um com mesmo nome, class pode ser várias */
+
+/*div.menu {
+	width: 400px;
+}*/
+
+.menu {
+	width: 900px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.menu a{
+	color: red;
+	border-right: 3px solid green;
+	padding-right: 8px;
+	font-size: 20px;
+	margin: 0 10px;
+}
